@@ -11,11 +11,19 @@ export const Banner = () => {
         fontSize='70px'
         left='147px'
         right='24%'
-        top='223px'
-        lineHeight='120%'>
+        top='calc(100vh - 500px )'
+        lineHeight='120%'
+        fontFamily='monserrat'
+        fontWeight='800'>
         COLLECT <br />
         MOTHER MARY <br />
         ART NTF
+      </Box>
+      <Box
+        position='absolute'
+        left='290px'
+        top='calc(100vh - 330px)'>
+        <Image src='/images/elipse.png' />
       </Box>
       <Box
         w='512px'
@@ -37,7 +45,7 @@ export const Banner = () => {
         w='450px'
         lineHeight='150%'
         position='absolute'
-        top='500px'
+        top='calc(100vh - 250px)'
         left='147px'>
         Find the best upcoming and live NFT drops. Moonly provides analytics to
         help you make good NFT investments.
@@ -50,13 +58,13 @@ export const Banner = () => {
         position='absolute'
         color='#262626'
         left='147px'
-        top='591px'>
+        top='calc(100vh - 190px)'>
         VER EN OPENSEA
       </Center>
       <Box
         position='absolute'
-        left='90px'
-        top='650px'>
+        left='95px'
+        top='calc(100vh - 130px)'>
         <Image src='/images/form1.png' />
       </Box>
     </>
